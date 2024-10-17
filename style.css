@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+     font-weight: bold;
+     padding: 0cap;
+     margin-inline-start: auto;
+}
+div{
+    padding:5px;
+    margin: 10;
+    color:aquamarine
+}
+h2{
+    color:indigo;
+    font-size:bold;
+}
