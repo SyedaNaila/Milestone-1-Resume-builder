@@ -1,7 +1,7 @@
- const toggleButton=document.getElementById("toggleButton") as HTMLButtonElement|null;
- const skillsDiv = document.getElementById("skills") as HTMLAnchorElement|null;
+ const toggleButton=document.getElementById("togglebutton") as HTMLButtonElement|null;
+ const skillsDiv = document.getElementById("skills") as HTMLDivElement|null;
  if (toggleButton && skillsDiv){
-    toggleButton.addEventListener("click", () =>{
+    toggleButton.addEventListener("click", () => {
         if(skillsDiv.style.display === "none"){
             skillsDiv.style.display ="block" ;
             toggleButton.value = "Hide skills";
@@ -13,6 +13,7 @@
    }
 else {
 
-console.log("Request element not found in the DOM");
+console.log("Required element not found in the DOM");
 
-}
+};
+
